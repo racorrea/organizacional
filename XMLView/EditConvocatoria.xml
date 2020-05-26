@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <columns>
+        <group name="basic" numcolumns="12">
+            <column name="tema-convocatoria" numcolumns="12" order="1">
+                <widget type="text" fieldname="temaconvocatoria"  required="true"/>
+            </column>
+            <column name="descripcion-convocatoria" numcolumns="12" order="2">
+                <widget type="textarea" fieldname="descripcion"  required="true"/>
+            </column>
+            <column name="lugar-sesion" order="3" numcolumns="6">
+                <widget type="text" fieldname="lugar"  required="true"/>
+            </column>
+            <column name="fecha-sesion" title="fecha" numcolumns="3" order="4">
+                <widget type="date" fieldname="fechasesion"  required="true"/>
+            </column>
+            <column name="hora-sesion" title="hora" numcolumns="3" order="5">
+                <widget type="time" fieldname="horasesion"  required="true"/>
+            </column>
+        </group>
+        <group name="advanced" numcolumns="12">
+            <column name="quien-solicita" numcolumns="3" order="6">
+                <widget type="select" fieldname="quiensolicita" required="true">
+                    <values title="-------">-</values>
+                    <values title="Directiva">Directiva</values>
+                    <values title="Socio">Socio</values>
+                </widget>
+            </column>
+            <column name="nombre-solicita" order="7" numcolumns="9">
+                <widget type="text" fieldname="nombrequiensolicita" />
+            </column>
+            <column name="puntos-a-tratar" numcolumns="12" order="8">
+                <widget type="textarea" fieldname="puntos"  required="true"/>
+            </column>
+            <column name="otro-detalle" numcolumns="12" order="9">
+                <widget type="textarea" fieldname="otrodetalle"/>
+            </column>
+        </group>
+    </columns>
+</view>

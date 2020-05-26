@@ -1,0 +1,11 @@
+{
+    "tema-convocatoria": "Tema de la convocatoria",
+    "descripcion-convocatoria": "Descripción de la convocatoria",
+    "lugar-sesion": "Lugar de la sesión",
+    "fecha-sesion": "Fecha de inicio de la sesión",
+    "hora-sesion": "Hora de inicio de la sesión",
+    "quien-solicita": "¿Quién solicita la reunión?",
+    "nombre-solicita": "Nombre de quién solicita la reunión",
+    "puntos-a-tratar": "Puntos a tratar durante la sesión",
+    "otro-detalle": "¿Desea agregar otro detalle?"
+}

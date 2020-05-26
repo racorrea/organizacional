@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+    
+    <column>
+        <name>idconvocatoria</name>
+        <type>serial</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>codconvocatoria</name>
+        <type>text</type>
+    </column>
+    <column>
+        <name>temaconvocatoria</name>
+        <type>text</type>
+    </column>
+    <column>
+        <name>tipoorganizacion</name>
+        <type>text</type>
+    </column>
+    <column>
+        <name>tipoasamblea</name>
+        <type>text</type>
+    </column>
+    <column>
+        <name>tiposesion</name>
+        <type>text</type>
+    </column>
+    <column>
+        <name>lugar</name>
+        <type>text</type>
+    </column>
+    <column>
+        <name>fechasesion</name>
+        <type>date</type>
+    </column>
+    <column>
+        <name>fechaexpira</name>
+        <type>date</type>
+    </column>
+    <column>
+        <name>horasesion</name>
+        <type>time without time zone</type>
+    </column>
+    <column>
+        <name>quiensolicita</name>
+        <type>text</type>
+    </column>
+    <column>
+        <name>nombrequiensolicita</name>
+        <type>text</type>
+    </column>
+    <column>
+        <name>descripcion</name>
+        <type>text</type>
+    </column>
+    <column>
+        <name>puntos</name>
+        <type>text</type>
+    </column>
+    <column>
+        <name>otrodetalle</name>
+        <type>text</type>
+    </column>
+    <column>
+        <name>estado</name>
+        <type>boolean</type>
+    </column>
+    <column>
+        <name>create_at</name>
+        <type>date</type>
+    </column>
+    <constraint>
+        <name>projects_pkey</name>
+        <type>PRIMARY KEY (idconvocatoria)</type>
+    </constraint>
+</table>
