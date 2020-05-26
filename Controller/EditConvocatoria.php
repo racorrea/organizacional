@@ -8,7 +8,6 @@
 
 namespace FacturaScripts\Plugins\Organizacional\Controller;
 
-use FacturaScripts\Core\Base\DataBase\DataBaseWhere;
 use FacturaScripts\Core\Lib\ExtendedController\EditController;
 
 /**
